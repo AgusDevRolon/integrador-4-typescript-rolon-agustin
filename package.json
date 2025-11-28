@@ -1,5 +1,23 @@
 {
+  "name": "trabajo_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "funcion":"tsx src/funciones/funcion.ts",
+    "literal1":"tsx src/literal/enum.ts",
+    "literal2":"tsx src/literal/literal_type.ts",
+    "tipo1":"tsx src/tipo_basico/basico.ts",
+    "tipo2":"tsx src/tipo_basico/fundamentales.ts",
+    "tipo3":"tsx src/tipo_basico/uniones.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }
